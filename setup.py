@@ -10,7 +10,7 @@ with open(path.join(HERE, "README.md")) as f:
 setup(
     name="grip4-connector",
     packages=find_packages(),
-    version="0.0.1",
+    version="0.0.7",
     description="GRIP4 Connector to get region road data from the Global Road Inventory Project",
     url="https://github.com/Repsay/grip4-connector",
     download_url="https://github.com/Repsay/grip4-connector/releases",
@@ -20,7 +20,7 @@ setup(
     author_email="jdelahaije@gmail.com",
     license="MIT",
     python_requires=">=3.8",
-    install_requires=["gadm-connector", "geopandas"],
+    install_requires=["requests", "geopandas", "pycountry"],
     include_package_data=True,
     classifiers=[
         "Development Status :: 2 - Pre-Alpha",

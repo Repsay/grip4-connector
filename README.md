@@ -30,3 +30,6 @@ Grip4-connector is build for python 3.8+.
 
 * get geopandas dataframe of region roads
 * get geopandas dataframe of country roads
+* get list of coordinates of country roads
+* filter roads by type
+* automatic split of roads in country roads stored in shapefile in temp folder
